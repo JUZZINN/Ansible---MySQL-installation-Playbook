@@ -94,7 +94,8 @@ You can  access playbook of our repo from **_ [here](https://github.com/JUZZINN/
         user: ''
         host_all: yes
         state: absent
-        ```
+         
+ ```
         
 - **Mariadb - Creating Extra Database** 
 
@@ -121,7 +122,3 @@ You can  access playbook of our repo from **_ [here](https://github.com/JUZZINN/
         host: localhost
         priv: "{{ mysql_database }}.*:ALL"
 ```
-
-
-
-
