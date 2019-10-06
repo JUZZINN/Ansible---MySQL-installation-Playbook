@@ -3,8 +3,10 @@
 *_In this  we will install a MySQL server on Remote host machine taking input from the user to decide how the playbook should run._*  
 
 <br>
+
 ----------------------------
 <br>
+
 
 #### Lets crack the ansible-playbook for this repo.
 
@@ -37,12 +39,14 @@ You can  access playbook of our repo from **_ [here](https://github.com/JUZZINN/
 ```
 
 <br>
+
 ----------------------------
+
 <br>
 
 ## TASKS
 
-- ** Installing Mariadb** 
+- **Installing Mariadb** 
 
 
 ```
@@ -68,7 +72,7 @@ You can  access playbook of our repo from **_ [here](https://github.com/JUZZINN/
 ```
 
 
-- ** MariaDB - reset Root Passsword**
+- **MariaDB - reset Root Passsword**
 
 ```
       ignore_errors: yes
@@ -80,7 +84,7 @@ You can  access playbook of our repo from **_ [here](https://github.com/JUZZINN/
         host_all: yes
 ```
 
-- ** MariaDB - Deleting Anonymous user**  
+- **MariaDB - Deleting Anonymous user**  
 
 ```
     - name: "MariaDB - Deleting Anonymous user"
@@ -92,7 +96,7 @@ You can  access playbook of our repo from **_ [here](https://github.com/JUZZINN/
         state: absent
         ```
         
-- ** Mariadb - Creating Extra Database** 
+- **Mariadb - Creating Extra Database** 
 
 ```
     - name: "Mariadb -Creating extra Database"
@@ -104,7 +108,7 @@ You can  access playbook of our repo from **_ [here](https://github.com/JUZZINN/
 
 ```
 
-- ** Mariadb - Creating /Granting extra use**  
+- **Mariadb - Creating /Granting extra use**  
 
 ```
     - name: "Mariadb - Creating /granting extra user"
