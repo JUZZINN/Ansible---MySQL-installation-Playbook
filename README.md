@@ -5,7 +5,7 @@
 
 Playbooks are a completely different way to use ansible than in ad-hoc task execution mode, and are particularly powerful.Each playbook is composed of one or more 'plays' in a list.   
 
-You can  access playbook of our repo from **_ [here](https://github.com/JUZZINN/Ansible---Mariadb-installation-Playbook-/blob/master/mariadb-installation.yml.txt)_**
+You can  access playbook of our repo from **_[here](https://github.com/JUZZINN/Ansible---Mariadb-installation-Playbook-/blob/master/mariadb-installation.yml.txt)_**
  
  #####  To prompt the user for certain input, and can do so with the ‘vars_prompt’ section.
  
