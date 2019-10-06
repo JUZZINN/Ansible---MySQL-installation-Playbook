@@ -8,7 +8,7 @@
 <br>
 
 
-#### Lets crack the ansible-playbook for this repo.
+#### Lets go through the ansible-playbook for this repo.
 
 Playbooks are a completely different way to use ansible than in ad-hoc task execution mode, and are particularly powerful.Each playbook is composed of one or more 'plays' in a list.   
 
