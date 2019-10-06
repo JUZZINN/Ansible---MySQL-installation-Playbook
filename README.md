@@ -1,10 +1,5 @@
 ## Ansible - MySQL installation-Playbook 
 
-<br>
-
-----------------------------
-<br>
-
 
 #### Lets go through the ansible-playbook for this repo.
 
