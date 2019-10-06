@@ -9,15 +9,16 @@
 
     - name: mysql_password
       private: yes
-      prompt: "Enter Password"
+      prompt: "Enter User Password"
 
     - name: mysql_database
       private: no
-      prompt: "Enter DB name"
+      prompt: "Enter Database Name"
 
     - name: mysql_root
       private: yes
-      prompt: "Enter root passwd"
+      prompt: "Enter root password"
+
   tasks:
 
     - name: "Installing Mariadb"
